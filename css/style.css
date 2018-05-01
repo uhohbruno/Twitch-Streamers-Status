@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'roboto';
+  src: url("../../Fonts/Roboto/Roboto-light.ttf") format("truetype"); }
+.container {
+  font-family: 'roboto', sans-serif;
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center; }
+  .container #logo {
+    background: #fff;
+    height: auto;
+    width: 400px;
+    display: block;
+    padding-right: 20px; }
+  .container #streamersHeader {
+    font-size: 24px; }
+    .container #streamersHeader h1 {
+      margin: 0;
+      color: #7a59aa; }
+  .container #status {
+    display: flex;
+    flex-flow: row; }
+  .container #streamers {
+    position: relative;
+    transform: translateX(-30px); }
+    .container #streamers h3 {
+      font-family: 'roboto', sans-serif; }
+
+.online {
+  color: red;
+  width: 10px;
+  height: auto;
+  border-radius: 20px;
+  float: left;
+  margin-right: 10px; }
+
+.offline {
+  color: #b69ed7;
+  width: 10px;
+  height: auto;
+  border-radius: 20px;
+  float: left;
+  margin-right: 10px; }
+
+.active {
+  background: #7a59aa; }
+  .active h3 {
+    color: white; }
+
+h3 {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #7a59aa; }
+
+.description {
+  width: 200px; }
+  .description h4 {
+    font-size: 12px; }
+
+.streamUrl {
+  text-decoration: none;
+  color: #7a59aa; }
+  .streamUrl:visited {
+    color: inherit; }
+
+/*# sourceMappingURL=style.css.map */

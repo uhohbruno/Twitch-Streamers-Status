@@ -1,0 +1,89 @@
+
+@font-face {
+font-family: 'roboto';
+src: url('../../Fonts/Roboto/Roboto-light.ttf') format('truetype');
+}
+.container {
+  font-family: 'roboto', sans-serif;
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  #logo {
+    background: #fff;
+    height: auto;
+    width: 400px;
+    display: block;
+    padding-right: 20px;
+    
+
+  }  
+  #streamersHeader {
+    font-size: 24px;
+    
+    h1{
+      
+      margin: 0;
+      color: rgb(122, 89, 170);
+    }
+  
+  }
+  #status{
+    display: flex;
+    flex-flow: row;
+  
+  }
+  #streamers {
+  position: relative;
+  transform: translateX(-30px);
+    
+    h3 {
+      font-family: 'roboto', sans-serif;
+    }
+  }
+}
+.online {
+  
+  color: red;
+  width: 10px;
+  height: auto;
+  border-radius: 20px;
+    float: left;
+    margin-right: 10px;
+  
+}
+.offline {
+  
+  color: rgb(182, 158, 215);
+  width: 10px;
+  height: auto;
+  border-radius: 20px;
+  float: left;
+  margin-right: 10px;
+  
+}
+.active {
+  
+  background: rgb(122, 89, 170);
+  h3 {
+    color: white;
+  }
+}
+h3{
+  margin-right: 20px;
+  margin-left: 20px;
+  color: rgb(122, 89, 170);
+}
+
+.description{
+  width: 200px;
+  h4 {
+  font-size: 12px;
+}}
+.streamUrl {
+  text-decoration: none;
+  color: rgb(122, 89, 170);
+  &:visited {
+    color: inherit;
+  }
+}
